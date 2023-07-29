@@ -2,26 +2,18 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
 import './PortfolioNavbar.scss';
 
 const PortfolioNavbar = () => {
     return (
         <>
-            <div className="portfolioNavbar">
-                <Navbar expand="lg" className="bg-body-tertiary">
+            <div id="portfolioNavbar">
+                <Navbar>
                     <Container>
                         <div className="navbarBrand">
-                            <Row>
-                                <Col xs={6} md={4}>
-                                    <Image src="/" rounded />
-                                </Col>
-                            </Row>
                             <Navbar.Brand >Farhan Mahmood</Navbar.Brand>
                         </div>
-
+                   <div className="navbarElements">
                         <Nav defaultActiveKey="/home" as="ul">
                             <Nav.Item as="li">
                                 <Nav.Link href="/home">Home</Nav.Link>
@@ -38,7 +30,9 @@ const PortfolioNavbar = () => {
                             <Nav.Item as="li">
                                 <Nav.Link eventKey="link-2">Contact</Nav.Link>
                             </Nav.Item>
+                
                         </Nav>
+                        </div>
                     </Container>
                 </Navbar>
             </div>
