@@ -1,4 +1,11 @@
-#root {
-    background: rgb(251, 90, 90);
-    color: rgb(235, 223, 223);
+.root {
+    margin:0;
+    background: rgb(255, 255, 255);
+    color: rgb(21, 1, 1);
+    width: 100%;
+    max-width: 100%;
 }
+#ProjectButton{
+    margin-bottom:20px;
+}
+

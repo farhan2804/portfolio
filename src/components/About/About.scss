@@ -1,0 +1,42 @@
+#ButtonContainer {
+    display: flex;
+    margin-top: 15px;
+}
+
+#TalkButton {
+    margin-right: 15px;
+}
+
+#Resumebutton {
+    margin-right: 15px;
+}
+
+#GitHubButton {
+    margin-right: 15px;
+}
+
+
+#AboutContent {
+    margin-top: 20px;
+}
+
+#LinkedInButton{
+    margin-right:20px;
+}
+
+
+
+@media(max-width:320px){
+    #TalkButton {
+        margin-right: 1px;
+    }
+    
+    #Resumebutton {
+        margin-right: 1px;
+    }
+    
+    #GitHubButton {
+        margin-right: 1px;
+    }
+    
+}

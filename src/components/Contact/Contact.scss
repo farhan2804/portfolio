@@ -1,4 +1,46 @@
-#text {
-    width:100%;
+#textMessage {
+    width: 100%;
     height: 120px;
+}
+
+#ContactButton button {
+    margin-right: 10px;
+}
+
+#formBasicText {
+    margin-bottom: 10px;
+}
+
+#formBasicEmail {
+    margin-bottom: 10px;
+}
+
+#formBasicMobileNumber {
+    margin-bottom: 10px;
+}
+
+#formBasicTextArea {
+    margin-bottom: 10px;
+
+}
+
+#submitButton {
+    margin-top: 10px;
+}
+
+#ContactButtonContainer {
+    display: flex;
+}
+
+.LinkedButton {
+    margin-right: 15px;
+}
+
+.MailButton {
+    margin-right: 15px;
+    margin-bottom:15px;
+}
+
+@media(max-width:360px){
+    
 }

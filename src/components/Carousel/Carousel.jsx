@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../../assets/slide1.webp';
+import Image from '../../assets/slide1.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 
 
