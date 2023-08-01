@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../../assets/farhan1.jpg';
 import Button from "react-bootstrap/Button";
 import Pdf from "./Farhan_Resume.pdf";
+import { aboutText } from '../../data/about';
 import './About.scss';
 const PortfolioAbout = () => {
     return (
@@ -16,12 +17,7 @@ const PortfolioAbout = () => {
                     <h1 class="text-capitalize pt-4">About Me</h1>
                     Hi there! I am <strong>&nbsp;Farhan Mahmood.</strong>
                     <br />
-                    React JS Developer having enterprise level experience in React JS and
-                    beginner level knowledge of Express JS, Node JS and Mongo DB.
-                    I have strong fundamentals in computer algorithms,object oriented programming, relational and NoSQL databases.
-                    Working with the clients, my goal is always driven towards
-                    providing amazing experience with the best level of quality and service to
-                    them.
+                    {aboutText}
                     <div id="ButtonContainer">
                         <div id="TalkButton">
                             <Button class="btn" variant="outline-primary" href={Pdf} target="_blank">Let's Talk</Button>

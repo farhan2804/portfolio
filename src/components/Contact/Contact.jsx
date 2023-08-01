@@ -48,23 +48,15 @@ const PortfolioContact = () => {
                             <Form.Label>Name</Form.Label>
                             <Form.Control type="text" placeholder="Enter Your Name" />
                         </Form.Group>
-                        <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email</Form.Label>
-                            <Form.Control type="email" placeholder="Enter Your Email" />
-                        </Form.Group>
-                        <Form.Group controlId="formBasicMobileNumber">
-                            <Form.Label>Mobile Number</Form.Label>
-                            <Form.Control type="tel" placeholder="Enter Your Mobile Number" />
-                        </Form.Group>
                         <Form.Group controlId="formBasicTextArea">
                             <Form.Label>Any Suggestions for me !!!</Form.Label>
                             <Form.Control id="textMessage" type="textarea" rows="4" placeholder="Your Message Here....." />
                         </Form.Group>
-                        <Form.Group controlId="formBasicCheckbox">
+                        <Form.Group Id="formBasicCheckbox">
                             <Form.Check type="checkbox" label="Check me out" />
                         </Form.Group>
                         <Button variant="primary" id="submitButton" type="submit">
-                            Submit
+                            Send Message
                         </Button>
                     </Form>
                 </div>

@@ -1,0 +1,40 @@
+#TitleHeading {
+    padding:10px;
+}
+
+#CardContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.HTMLImage {
+    display: flex;
+    width: 40px;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.CSSImage {
+    display: flex;
+    width: 40px;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+.BootStrapImage {
+    display: flex;
+    width: 35px;
+    gap: 20px;
+    margin-left: 20px;
+
+}
+
+#SkillsContainer {
+    background: rgba(217, 214, 214, 0.819);
+}
