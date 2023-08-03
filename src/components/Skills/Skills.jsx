@@ -19,7 +19,8 @@ import './Skills.scss';
 
 const PortfolioSkills = () => {
     return (
-        <Container>
+        <Container id="skills">
+        <div class="container">
             <h1 class="text-center text-capitalize pt-4">Tech Skills</h1>
             <hr class="w-50 mx-auto pt-3"></hr>
             <div class="row text-center mb-5">
@@ -113,6 +114,7 @@ const PortfolioSkills = () => {
                         </Card.Body>
                     </div>
                 </div>
+            </div>
             </div>
         </Container>
 

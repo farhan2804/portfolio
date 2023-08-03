@@ -5,6 +5,16 @@ import Pdf from "./Farhan_Resume.pdf";
 import './PortfolioNavbar.scss';
 
 const PortfolioNavbar = () => {
+    const navbar = document.getElementById('Nav');
+    function handleScroll() {
+        if (window.scrollY > 20) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    }
+    window.addEventListener('scroll', handleScroll);
+
     return (
         <>
             <Navbar
@@ -12,7 +22,7 @@ const PortfolioNavbar = () => {
                 collapseOnSelect
                 expand="md"
                 variant="dark"
-                className="animate-navbar nav-theme justify-content-between">
+                className="animate-navbar nav-theme justify-content-between" id="Nav">
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <h2 id="NavbarName">Farhan Mahmood</h2>

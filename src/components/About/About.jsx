@@ -3,10 +3,12 @@ import Image from '../../assets/farhan1.jpg';
 import Button from "react-bootstrap/Button";
 import Pdf from "./Farhan_Resume.pdf";
 import { aboutText } from '../../data/about';
+import Container from 'react-bootstrap/Container';
 import './About.scss';
 const PortfolioAbout = () => {
     return (
-        <div class="container">
+        <Container id ="about">
+        <div  class="container">
             <div class="row mb-5">
                 <div class="col-lg-6 col-md-6 col-12">
                     <img src={Image} class="img-fluid" id="AboutImage" />
@@ -20,7 +22,7 @@ const PortfolioAbout = () => {
                     {aboutText}
                     <div id="ButtonContainer">
                         <div id="TalkButton">
-                            <Button class="btn" variant="outline-primary" href={Pdf} target="_blank">Let's Talk</Button>
+                            <Button class="btn" variant="outline-primary" href="#contact">Let's Talk</Button>
                         </div>
                         <div id="Resumebutton">
                             <Button class="btn" variant="outline-success" href={Pdf} target="_blank">My Resume</Button>
@@ -36,6 +38,7 @@ const PortfolioAbout = () => {
                 </div>
             </div>
         </div>
+        </Container>
     )
 }
 

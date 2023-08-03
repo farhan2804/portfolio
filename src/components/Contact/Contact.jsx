@@ -1,11 +1,13 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Container from 'react-bootstrap/Container';
 import './Contact.scss';
 
 const PortfolioContact = () => {
     return (
-        <div class="container">
+        <Container>
+        <div id="contact" class="container">
             <div class="row mb-5">
                 <div class="col-lg-6 col-md-6  col-sm-12 col-12">
                     <h1>Contact Me</h1>
@@ -46,13 +48,15 @@ const PortfolioContact = () => {
                     <Form>
                         <Form.Group controlId="formBasicText">
                             <Form.Label>Name</Form.Label>
-                            <Form.Control type="text" placeholder="Enter Your Name" />
+                            <Form.Control id="textName" type="text" placeholder="Enter Your Name"/>
                         </Form.Group>
-                        <Form.Group controlId="formBasicTextArea">
+                        <Form.Group id="formBasicTextArea">
                             <Form.Label>Any Suggestions for me !!!</Form.Label>
-                            <Form.Control id="textMessage" type="textarea" rows="4" placeholder="Your Message Here....." />
+                            <div className="textarea-container">
+                                <Form.Control id="textMessage" as="textarea" rows="4" placeholder="Your Message Here....." />
+                            </div>
                         </Form.Group>
-                        <Form.Group Id="formBasicCheckbox">
+                        <Form.Group id="formBasicCheckbox">
                             <Form.Check type="checkbox" label="Check me out" />
                         </Form.Group>
                         <Button variant="primary" id="submitButton" type="submit">
@@ -62,6 +66,7 @@ const PortfolioContact = () => {
                 </div>
             </div>
         </div>
+        </Container>
     )
 }
 export default PortfolioContact;

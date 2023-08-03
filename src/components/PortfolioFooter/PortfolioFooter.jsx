@@ -2,6 +2,9 @@ import React from 'react';
 import './PortfolioFooter.scss';
 import Button from 'react-bootstrap/Button';
 const PortfolioFooter = () => {
+       const scrollToTop = () => {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+       };
        return (
               <div id="FooterContainer">
                      <div id="Name">
@@ -9,8 +12,8 @@ const PortfolioFooter = () => {
                             {new Date().getUTCFullYear()}
                      </div>
                      <div id="BackToTop">
-                            <Button variant="danger" title="Back to Top">
-                                   <i class="fa-solid fa-arrow-up"></i>
+                            <Button variant="danger" onClick={scrollToTop} title="Back to Top">
+                                   <i className="fa-solid fa-arrow-up"></i>
                             </Button>
                      </div>
               </div>
