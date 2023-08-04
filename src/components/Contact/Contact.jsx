@@ -26,7 +26,7 @@ const PortfolioContact = () => {
                         <div className="LinkedButton">
                             <a href="https://www.linkedin.com/in/10-farhan-mahmood" target="_blank" rel="noopener noreferrer">
                                 <Button
-                                    variant="success"
+                                    variant="info"
                                     title="Visit my LinkenIn">
                                     <i className="fab fa-linkedin"></i> LinkedIn
                                 </Button>

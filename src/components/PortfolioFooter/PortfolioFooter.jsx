@@ -8,7 +8,7 @@ const PortfolioFooter = () => {
        return (
               <div id="FooterContainer">
                      <div id="Name">
-                            Farhan Mahmood &nbsp; {new Date().getMonth() + 1}-{new Date().getDate()}-
+                            &copy; Farhan Mahmood &nbsp; {new Date().getMonth() + 1}-{new Date().getDate()}-
                             {new Date().getUTCFullYear()}
                      </div>
                      <div id="BackToTop">

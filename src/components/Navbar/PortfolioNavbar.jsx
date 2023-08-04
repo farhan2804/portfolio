@@ -5,15 +5,29 @@ import Pdf from "./Farhan_Resume.pdf";
 import './PortfolioNavbar.scss';
 
 const PortfolioNavbar = () => {
-    const navbar = document.getElementById('Nav');
+
     function handleScroll() {
+    const navbar = document.getElementById('Nav');
         if (window.scrollY > 20) {
             navbar.classList.add('scrolled');
+            // Remove the event listener when scrolled
+            window.removeEventListener('scroll', handleScroll);
         } else {
             navbar.classList.remove('scrolled');
         }
     }
-    window.addEventListener('scroll', handleScroll);
+
+    React.useEffect(()=> {
+        function handleScrollAndRemove() {
+            handleScroll();
+            if (window.scrollY <= 20) {
+                // If scrolled to the top, re-add the event listener
+                window.addEventListener('scroll', handleScroll);
+            }
+        }
+        window.addEventListener('scroll', handleScrollAndRemove);
+    },[]);
+
 
     return (
         <>
