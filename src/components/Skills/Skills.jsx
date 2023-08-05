@@ -14,12 +14,15 @@ import L_GIT from "../../assets/Images/Skills/git-icon.svg";
 import L_GITHUB_PAGES from "../../assets/Images/Skills/github.svg";
 import L_Heroku from "../../assets/Images/Skills/heroku.svg";
 import L_Netlify from "../../assets/Images/Skills/netlify.png";
+import { useTheme } from "../Themes/ThemeProvider";
 import './Skills.scss';
 
 
 const PortfolioSkills = () => {
+
+    const { isDarkMode } = useTheme();
     return (
-        <Container id="skills">
+        <Container id="skills" className={isDarkMode ? 'dark-mode' : 'light-mode'}>
             <div class="container">
                 <h1 class="text-center text-capitalize pt-4">Tech Skills</h1>
                 <hr class="w-50 mx-auto pt-3"></hr>

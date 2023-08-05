@@ -3,11 +3,20 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Pdf from "./Farhan_Resume.pdf";
 import './PortfolioNavbar.scss';
+import { useTheme } from "../Themes/ThemeProvider";
 
 const PortfolioNavbar = () => {
 
+    const { toggleTheme, isDarkMode } = useTheme();
+
+    function handleToggleTheme() {
+        toggleTheme();
+        document.body.classList.toggle('light-mode', !isDarkMode);
+        document.body.classList.toggle('dark-mode', isDarkMode);
+    }
+
     function handleScroll() {
-    const navbar = document.getElementById('Nav');
+        const navbar = document.getElementById('Nav');
         if (window.scrollY > 20) {
             navbar.classList.add('scrolled');
             // Remove the event listener when scrolled
@@ -17,7 +26,7 @@ const PortfolioNavbar = () => {
         }
     }
 
-    React.useEffect(()=> {
+    React.useEffect(() => {
         function handleScrollAndRemove() {
             handleScroll();
             if (window.scrollY <= 20) {
@@ -26,7 +35,7 @@ const PortfolioNavbar = () => {
             }
         }
         window.addEventListener('scroll', handleScrollAndRemove);
-    },[]);
+    }, []);
 
 
     return (
@@ -49,6 +58,15 @@ const PortfolioNavbar = () => {
                             Resume
                         </Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
+                        <div class="theme-switch-wrapper">
+                            <span id="toggle-icon">
+                                {isDarkMode ? <i className="fas fa-moon"></i> : <i className="fas fa-sun" style={{ color: 'white' }}></i>}
+                            </span>
+                            <label class="theme-switch">
+                                <input type="checkbox" onChange={handleToggleTheme} />
+                                <div class="slider round"></div>
+                            </label>
+                        </div>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

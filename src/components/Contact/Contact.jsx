@@ -2,12 +2,14 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
+import { useTheme } from "../Themes/ThemeProvider";
 import './Contact.scss';
 
 const PortfolioContact = () => {
+    const { isDarkMode } = useTheme();
     return (
         <Container>
-        <div id="contact" class="container">
+        <div id="contact" class="container" className={isDarkMode ? 'dark-mode' : 'light-mode'}>
             <div class="row mb-5">
                 <div class="col-lg-6 col-md-6  col-sm-12 col-12">
                     <h1>Contact Me</h1>

@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+SA+Beginner:wght@600&family=Mukta&display=swap');
+@import './components/Themes/Themes.scss';
+
 .root {
-    margin:0;
-    background: rgb(255, 255, 255);
-    color: rgb(21, 1, 1);
+    margin: 0;
     width: 100%;
     max-width: 100%;
-}
-#ProjectButton{
-    margin-bottom:20px;
+  
 }
 
-html{
+#ProjectButton {
+    margin-bottom: 20px;
+}
+
+html {
     scroll-behavior: smooth;
 }
-
 

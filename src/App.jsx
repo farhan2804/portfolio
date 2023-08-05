@@ -5,22 +5,22 @@ import PortfolioProjects from './components/PortfolioProjects/PortfolioProjects'
 import PortfolioNavbar from './components/Navbar/PortfolioNavbar'
 import PortfolioContact from './components/Contact/Contact';
 import PortfolioFooter from './components/PortfolioFooter/PortfolioFooter';
-import './App.css'
+import './App.css';
 
 const App = () => {
   return (
     <>
       <PortfolioNavbar />
       <PortfolioCarousel />
-      <hr/>
-      <PortfolioAbout/>   
-      <hr/>
-      <PortfolioSkills/>
-      <hr/>
-      <PortfolioProjects/>
-      <hr/>
-      <PortfolioContact/>
-      <PortfolioFooter/>
+      <hr />
+      <PortfolioAbout />
+      <hr />
+      <PortfolioSkills />
+      <hr />
+      <PortfolioProjects />
+      <hr />
+      <PortfolioContact />
+      <PortfolioFooter />
     </>
   )
 }
