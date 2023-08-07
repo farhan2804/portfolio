@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import L_HTML5 from "../../assets/Images/Skills/html-5.svg";
 import Container from 'react-bootstrap/Container';
@@ -24,8 +23,7 @@ const PortfolioSkills = () => {
     return (
         <Container id="skills" className={isDarkMode ? 'dark-mode' : 'light-mode'}>
             <div class="container">
-                <h1 class="text-center text-capitalize pt-4">Tech Skills</h1>
-                <hr class="w-50 mx-auto pt-3"></hr>
+                <h1 class="text-center text-capitalize pt-4" id="TechHeading">Tech Skills</h1>
                 <div class="row text-center mb-5">
                     <div class="col-lg-4 col-md-4 col-sm-12 col-12" id="Title1">
                         <div id="SkillsContainer1">

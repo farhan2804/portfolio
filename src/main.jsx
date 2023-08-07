@@ -5,11 +5,13 @@ import './index.css'
 import { ThemeProvider } from "./components/Themes/ThemeProvider.jsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.createRoot(document.querySelector('.root')).render(
+
+const rootElement = document.querySelector('.root');
+
+ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <ThemeProvider>
       <App />
     </ThemeProvider>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 )
