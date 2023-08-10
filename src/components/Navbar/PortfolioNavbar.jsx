@@ -57,7 +57,7 @@ const PortfolioNavbar = () => {
             <Nav.Link href={Pdf} target="_blank">
               Resume
             </Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#FooterContainer">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <div className="theme-switch-wrapper">

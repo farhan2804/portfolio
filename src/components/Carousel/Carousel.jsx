@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import Image1 from '../../assets/Images/Carousel/copy1.jpg';
-import Image2 from '../../assets/Images/Carousel/copy2.jpg';
-import Image3 from '../../assets/Images/Carousel/copy4.png';
-import Carousel from 'react-bootstrap/Carousel';
-import './Carousel.scss';
+import React, { useState, useEffect } from "react";
+import Image1 from "../../assets/Images/Carousel/copy1.jpg";
+import Image2 from "../../assets/Images/Carousel/copy2.jpg";
+import Image3 from "../../assets/Images/Carousel/copy4.png";
+import Carousel from "react-bootstrap/Carousel";
+import "./Carousel.scss";
 
 const PortfolioCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -13,7 +13,7 @@ const PortfolioCarousel = () => {
   };
 
   useEffect(() => {
-    const images = document.querySelectorAll('.custom-img');
+    const images = document.querySelectorAll(".custom-img");
     images.forEach((image, index) => {
       if (index === activeIndex) {
         image.style.opacity = 1;
@@ -25,7 +25,14 @@ const PortfolioCarousel = () => {
 
   return (
     <div id="home" className="carousel-container">
-      <Carousel controls={false} indicators interval={2500} pause={false} activeIndex={activeIndex} onSelect={handleSelect}>
+      <Carousel
+        controls={false}
+        indicators
+        interval={2500}
+        pause={false}
+        activeIndex={activeIndex}
+        onSelect={handleSelect}
+      >
         <Carousel.Item>
           <img
             className="d-block w-100 custom-img"
@@ -50,6 +57,6 @@ const PortfolioCarousel = () => {
       </Carousel>
     </div>
   );
-}
+};
 
 export default PortfolioCarousel;

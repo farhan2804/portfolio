@@ -25,7 +25,7 @@ const PortfolioAbout = () => {
                 <Button
                   className="btn"
                   variant="outline-warning"
-                  href="#contact"
+                  href="#FooterContainer"
                 >
                   Let's Talk
                 </Button>
