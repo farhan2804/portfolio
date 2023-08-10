@@ -32,6 +32,7 @@ export const projectData = [
     image: Image4,
     title: "Smart Home Automation-IOT",
     description: "Designed Using Node Mcu and Bylnk App",
+    url:"https://farhan2804.github.io/IOT_Project-detail-html/",
   },
   {
     id: "project_5",
