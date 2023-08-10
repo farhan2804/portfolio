@@ -1,10 +1,10 @@
-import PortfolioCarousel from './components/Carousel/Carousel'
-import PortfolioAbout from './components/About/About'
-import PortfolioSkills from './components/Skills/Skills'
-import PortfolioProjects from './components/PortfolioProjects/PortfolioProjects'
-import PortfolioNavbar from './components/Navbar/PortfolioNavbar'
-import PortfolioContact from './components/Contact/Contact';
-import PortfolioFooter from './components/PortfolioFooter/PortfolioFooter';
+import PortfolioCarousel from './components/Carousel/Carousel.jsx';
+import PortfolioAbout from './components/About/About.jsx'
+import PortfolioSkills from './components/Skills/Skills.jsx'
+import PortfolioProjects from './components/PortfolioProjects/PortfolioProjects.jsx'
+import PortfolioNavbar from './components/Navbar/PortfolioNavbar.jsx'
+import PortfolioContact from './components/Contact/Contact.jsx';
+import PortfolioFooter from './components/PortfolioFooter/PortfolioFooter.jsx';
 import './App.css';
 
 const App = () => {

@@ -10,9 +10,9 @@ const PortfolioContact = () => {
     return (
         <div>
             <Container className={isDarkMode ? 'dark-mode' : 'light-mode'}>
-                <div id="contact" class="container" >
-                    <div class="row mb-5">
-                        <div class="col-lg-6 col-md-6  col-sm-12 col-12">
+                <div id="contact" className="container" >
+                    <div className="row mb-5">
+                        <div className="col-lg-6 col-md-6  col-sm-12 col-12">
                             <h1>Contact Me</h1>
                             <h3>If you Have..........</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer facilisis metus nec risus hendrerit volutpat. Proin eget sapien id elit dapibus eleifend non a leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed tincidunt lacinia ipsum, at posuere nisi venenatis vitae. Aenean feugiat, ligula ut aliquam efficitur, nulla mi volutpat purus, sit amet volutpat risus urna nec quam</p>
@@ -47,9 +47,9 @@ const PortfolioContact = () => {
                             </div>
                         </div>
 
-                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                             <Form>
-                                <Form.Group controlId="formBasicText">
+                                <Form.Group id="formBasicText">
                                     <Form.Label>Name</Form.Label>
                                     <Form.Control id="textName" type="text" placeholder="Enter Your Name" />
                                 </Form.Group>
@@ -59,10 +59,7 @@ const PortfolioContact = () => {
                                         <Form.Control id="textMessage" as="textarea" rows="4" placeholder="Your Message Here....." />
                                     </div>
                                 </Form.Group>
-                                <Form.Group id="formBasicCheckbox">
-                                    <Form.Check type="checkbox" label="Check me out" />
-                                </Form.Group>
-                                <Button variant="primary" id="submitButton" type="submit">
+                                <Button variant="danger" id="submitButton" type="submit">
                                     Send Message
                                 </Button>
                             </Form>

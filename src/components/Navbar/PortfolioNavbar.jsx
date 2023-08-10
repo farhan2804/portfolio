@@ -58,13 +58,13 @@ const PortfolioNavbar = () => {
                             Resume
                         </Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
-                        <div class="theme-switch-wrapper">
+                        <div className="theme-switch-wrapper">
                             <span id="toggle-icon">
                                 {isDarkMode ? <i className="fas fa-moon"></i> : <i className="fas fa-sun" style={{ color: 'white' }}></i>}
                             </span>
-                            <label class="theme-switch">
+                            <label className="theme-switch">
                                 <input type="checkbox" onChange={handleToggleTheme} />
-                                <div class="slider round"></div>
+                                <div className="slider round"></div>
                             </label>
                         </div>
                     </Nav>
