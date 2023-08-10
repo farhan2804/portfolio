@@ -1,0 +1,31 @@
+#FooterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+#BackToTop {
+    margin-left: auto;
+}
+
+
+@media(max-width:320px) {
+    #FooterContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        background: rgb(54, 51, 51);
+        color: white;
+        padding: 30px;
+        font-size: 15px;
+
+    }
+}
+

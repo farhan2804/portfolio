@@ -1,0 +1,230 @@
+@import "../Themes/Themes.scss";
+
+
+#CardContents1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+#CardContents2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+#CardContents3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.HTMLImage {
+    display: flex;
+    width: 40px;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+}
+
+.CSSImage {
+    display: flex;
+    width: 45px;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-left: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+
+}
+
+.BootStrapImage {
+    display: flex;
+    width: 35px;
+    gap: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+
+}
+
+.JavaScriptImage1 {
+    display: flex;
+    width: 35px;
+    gap: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+}
+
+.ReactImage {
+    display: flex;
+    width: 40px;
+    gap: 20px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+}
+
+#SkillsContainer1 {
+    background: rgba(13, 204, 197, 0.912);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#SkillsContainer2 {
+    background: rgba(13, 204, 197, 0.912);
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+#SkillsContainer3 {
+    background: rgba(13, 204, 197, 0.912);
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+#SkillsContainer4 {
+    background: rgba(13, 204, 197, 0.912);
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.ReactHeading {
+    display: inline;
+    /* or display: inline-block; */
+}
+
+.ReactRouterImage {
+    display: flex;
+    width: 40px;
+    gap: 20px;
+    margin-left: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+
+}
+
+.ReactBootStrapImage {
+    display: flex;
+    width: 35px;
+    gap: 15;
+    margin-left: 16px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+
+}
+
+.JavaImage {
+    display: flex;
+    width: 60px;
+    gap: 20px;
+    margin-left: 16px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+}
+
+.JavaScriptImage2 {
+    display: flex;
+    width: 35px;
+    gap: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+}
+
+.GITImage {
+    display: flex;
+    width: 35px;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+}
+
+.HerokuImage {
+    display: flex;
+    width: 35px;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+}
+
+.GitHubImage {
+    display: flex;
+    width: 35px;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+}
+
+.NetlifyImage {
+    display: flex;
+    width: 35px;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(13, 7, 7, 0.629);
+
+}
+.ReactBootStrapHeading {
+    white-space: nowrap;
+    margin-left:20px;
+}
+
+#TechHeading{
+    margin-bottom:20px;
+}
+
+@media (max-width: 997px) {
+    .ReactBootStrapHeading {
+        white-space: normal;
+        margin-left:18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .ReactBootStrapHeading {
+        white-space: nowrap;
+        margin-left:20px;
+    }
+}
+

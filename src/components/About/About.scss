@@ -1,0 +1,51 @@
+#ButtonContainer {
+    display: flex;
+    margin-top: 15px;
+}
+
+#TalkButton {
+    margin-right: 15px;
+}
+
+#Resumebutton {
+    margin-right: 15px;
+}
+
+#GitHubButton {
+    margin-right: 15px;
+}
+
+#AboutHeading{
+    margin-bottom:25px;
+}
+
+
+#LinkedInButton {
+    margin-right: 20px;
+}
+
+#str{
+    font-size:larger;
+}
+
+
+@media(max-width:767px) {
+    #AboutHeading {
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:320px) {
+    #TalkButton {
+        margin-right: 1px;
+    }
+
+    #Resumebutton {
+        margin-right: 1px;
+    }
+
+    #GitHubButton {
+        margin-right: 1px;
+    }
+
+}
