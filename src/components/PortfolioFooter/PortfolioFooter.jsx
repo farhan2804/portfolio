@@ -3,6 +3,13 @@ import "./PortfolioFooter.scss";
 import Button from "react-bootstrap/Button";
 import { useTheme } from "../Themes/ThemeProvider";
 import Nav from "react-bootstrap/Nav";
+import {
+  LINKED_IN,
+  GITHUB,
+  INSTAGRAM,
+  YOUTUBE,
+  EMAIL,
+} from "../constants/urlConstants";
 const PortfolioFooter = () => {
   const { isDarkMode } = useTheme();
 
@@ -28,13 +35,19 @@ const PortfolioFooter = () => {
 
       <div id="FooterComponents">
         <div className="SocialIcons">
-          <a href="https://github.com/farhan2804" target="_blank">
+          <a href={LINKED_IN} target="_blank">
+            <i className="fab fa-linkedin"></i>
+          </a>
+          <a href={EMAIL} target="_blank">
+            <i className="fas fa-envelope" id="emailIcon"></i>
+          </a>
+          <a href={GITHUB} target="_blank">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://www.instagram.com/_farhan_2804/" target="_blank">
+          <a href={INSTAGRAM} target="_blank">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="https://www.youtube.com/@animaginations7060" target="_blank">
+          <a href={YOUTUBE} target="_blank">
             <i className="fab fa-youtube"></i>
           </a>
         </div>
