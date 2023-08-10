@@ -28,12 +28,13 @@
 
 .navbar.scrolled {
   background-color: rgba(13, 204, 197, 0.912);
-  /* Background color when scrolled */
+
 }
 
 .theme-switch-wrapper {
   display: flex;
   z-index: 100;
+  margin-right:15px;
 }
 
 .theme-switch-wrapper span {
@@ -118,6 +119,12 @@ input:checked + .slider::before {
 
   #Nav {
     background-color: rgba(13, 204, 197, 0.912);
+  }
+  .theme-switch-wrapper {
+    display: flex;
+    z-index: 100;
+    margin-right:15px;
+    margin-left:15px;
   }
 }
 
