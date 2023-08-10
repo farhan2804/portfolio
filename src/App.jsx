@@ -5,7 +5,6 @@ import PortfolioProjects from './components/PortfolioProjects/PortfolioProjects.
 import PortfolioNavbar from './components/Navbar/PortfolioNavbar.jsx'
 import PortfolioContact from './components/Contact/Contact.jsx';
 import PortfolioFooter from './components/PortfolioFooter/PortfolioFooter.jsx';
-import './App.css';
 
 const App = () => {
   return (

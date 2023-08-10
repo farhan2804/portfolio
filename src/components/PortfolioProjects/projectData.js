@@ -11,6 +11,7 @@ export const projectData = [
         image: Image1,
         title: 'Text Utility App',
         description: 'Text Utility App using React JS',
+        url: 'https://farhan2804.github.io/textract/'
     }, {
         id: 'project_2',
         image: Image2,
