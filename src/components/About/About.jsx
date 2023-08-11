@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "../../assets/Images/About/Farhan1.jpg";
 import Button from "react-bootstrap/Button";
-import Pdf from "./Farhan_Resume.pdf";
+import Pdf from "./Farhan_Mahmood.pdf";
 import { aboutText } from "./aboutData";
 import Container from "react-bootstrap/Container";
 import { useTheme } from "../Themes/ThemeProvider";

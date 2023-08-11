@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Pdf from "./Farhan_Resume.pdf";
+import Pdf from "./Farhan_Mahmood.pdf";
 import "./PortfolioNavbar.scss";
 import { useTheme } from "../Themes/ThemeProvider";
 
