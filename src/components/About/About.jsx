@@ -5,11 +5,9 @@ import Pdf from "./Farhan_Resume.pdf";
 import { aboutText } from "./aboutData";
 import Container from "react-bootstrap/Container";
 import { useTheme } from "../Themes/ThemeProvider";
-import {
-  LINKED_IN,
-  GITHUB,
-} from "../constants/urlConstants";
+import { LINKED_IN, GITHUB } from "../constants/urlConstants";
 import "./About.scss";
+
 const PortfolioAbout = () => {
   const { isDarkMode } = useTheme();
   return (
