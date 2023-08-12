@@ -34,6 +34,7 @@ const PortfolioFooter = () => {
       </div>
 
       <div id="FooterComponents">
+        <h1 id="FooterHeading">Let's Talk</h1>
         <div className="SocialIcons">
           <a href={LINKED_IN} target="_blank">
             <i className="fab fa-linkedin"></i>
