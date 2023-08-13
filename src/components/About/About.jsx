@@ -14,10 +14,10 @@ const PortfolioAbout = () => {
     <Container id="about" className={isDarkMode ? "dark-mode" : "light-mode"}>
       <div className="container">
         <div className="row mb-5">
-          <div className="col-lg-6 col-md-6 col-12">
+          <div className="col-lg-6 col-md-12 col-12">
             <img src={Image} className="img-fluid" id="AboutImage" />
           </div>
-          <div className="col-lg-6 col-md-6 col-12" id="AboutContent">
+          <div className="col-lg-6 col-md-12 col-12" id="AboutContent">
             <h1 id="AboutHeading">About Me</h1>
             Hi there! I am <strong id="str">&nbsp;Farhan Mahmood.</strong>
             <br />

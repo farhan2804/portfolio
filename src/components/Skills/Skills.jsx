@@ -1,5 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import IMAGE1 from '../Skills/Certificate1.png';
+import IMAGE2 from '../Skills/Certificate2.png';
 import L_HTML5 from "../../assets/Images/Skills/html-5.svg";
 import Container from "react-bootstrap/Container";
 import L_CSS3 from "../../assets/Images/Skills/css3.svg";
@@ -174,7 +176,7 @@ const PortfolioSkills = () => {
               </Card.Body>
             </div>
           </div>
-        </div>
+          </div>
       </div>
     </Container>
   );
