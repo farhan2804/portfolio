@@ -37,19 +37,19 @@ const PortfolioFooter = () => {
         <h1 id="FooterHeading">Let's Talk</h1>
         <div className="SocialIcons">
           <a href={LINKED_IN} target="_blank">
-            <i className="fab fa-linkedin"></i>
+            <i className="fab fa-linkedin" title="LinkedIn"></i>
           </a>
           <a href={EMAIL} target="_blank">
-            <i className="fas fa-envelope" id="emailIcon"></i>
+            <i className="fas fa-envelope" id="emailIcon" title="Gmail"></i>
           </a>
           <a href={GITHUB} target="_blank">
-            <i className="fab fa-github"></i>
+            <i className="fab fa-github" title="GitHub"></i>
           </a>
           <a href={INSTAGRAM} target="_blank">
-            <i className="fab fa-instagram"></i>
+            <i className="fab fa-instagram" title="Instagram"></i>
           </a>
           <a href={YOUTUBE} target="_blank">
-            <i className="fab fa-youtube"></i>
+            <i className="fab fa-youtube" title="Youtube"></i>
           </a>
         </div>
         <div className="NavDetails">
