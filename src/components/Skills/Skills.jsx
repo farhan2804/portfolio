@@ -31,59 +31,59 @@ const PortfolioSkills = () => {
                 <hr id="TitleLine1"></hr>
                 <div id="CardContents1">
                   <a
-                    className="HTMLImage"
+                    className="HTMLImage focus"
                     href="https://en.wikipedia.org/wiki/HTML5"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_HTML5} className="img-fluid" />
-                    <h5 className="HTMLHeading focus">HTML5</h5>
+                    <h5 className="HTMLHeading">HTML5</h5>
                   </a>
                   <a
-                    className="CSSImage"
+                    className="CSSImage focus"
                     href="https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_CSS3} className="img-fluid" />
-                    <h5 className="CSSHeading focus">CSS3</h5>
+                    <h5 className="CSSHeading">CSS3</h5>
                   </a>
                   <a
-                    className="BootStrapImage"
+                    className="BootStrapImage focus"
                     href="https://getbootstrap.com/"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_BOOTSTRAP} className="img-fluid" />
-                    <h5 className="BootstrapHeading focus">Bootstrap5</h5>
+                    <h5 className="BootstrapHeading ">Bootstrap5</h5>
                   </a>
                   <a
-                    className="JavaScriptImage1"
+                    className="JavaScriptImage1 focus"
                     href="https://www.javascript.com/"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_JAVASCRIPT} className="img-fluid" />
-                    <h5 className="JavaScriptHeading focus">JavaScript</h5>
+                    <h5 className="JavaScriptHeading">JavaScript</h5>
                   </a>
                   <a
-                    className="ReactImage"
+                    className="ReactImage focus"
                     href="https://reactjs.org/"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_REACT} className="img-fluid" />
-                    <h5 className="ReactHeading focus">React&nbsp;JS</h5>
+                    <h5 className="ReactHeading">React&nbsp;JS</h5>
                   </a>
                   <a
-                    className="ReactBootStrapImage"
+                    className="ReactBootStrapImage focus"
                     href="https://react-bootstrap.github.io/"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_REACT_BOOTSTRAP} className="img-fluid" />
                     <div id="ReactBootstrapHeadingContainer">
-                      <h5 className="ReactBootStrapHeading focus">React Bootstrap</h5>
+                      <h5 className="ReactBootStrapHeading">React Bootstrap</h5>
                     </div>
                   </a>
                 </div>
@@ -99,22 +99,22 @@ const PortfolioSkills = () => {
                 <hr id="TitleLine2"></hr>
                 <div id="CardContents2">
                   <a
-                    className="JavaScriptImage2"
+                    className="JavaScriptImage2 focus"
                     href="https://www.javascript.com/"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_JAVASCRIPT} className="img-fluid" />
-                    <h5 className="JavaScriptHeading focus">JavaScript</h5>
+                    <h5 className="JavaScriptHeading">JavaScript</h5>
                   </a>
                   <a
-                    className="JavaImage"
+                    className="JavaImage focus"
                     href="https://www.w3schools.com/java/"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_JAVA} className="img-fluid" />
-                    <h5 className="JavaHeading focus">Java</h5>
+                    <h5 className="JavaHeading">Java</h5>
                   </a>
                 </div>
               </Card.Body>
@@ -125,13 +125,13 @@ const PortfolioSkills = () => {
                 <hr id="TitleLine3"></hr>
                 <div id="CardContents2">
                   <a
-                    className="GITImage"
+                    className="GITImage focus"
                     href="https://git-scm.com/"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_GIT} className="img-fluid" />
-                    <h5 className="GITHeading focus">GIT</h5>
+                    <h5 className="GITHeading">GIT</h5>
                   </a>
                 </div>
               </Card.Body>
@@ -144,31 +144,31 @@ const PortfolioSkills = () => {
                 <hr id="TitleLine4"></hr>
                 <div id="CardContents3">
                   <a
-                    className="HerokuImage"
+                    className="HerokuImage focus"
                     href="https://www.heroku.com/"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_Heroku} className="img-fluid" />
-                    <h5 className="HerokuHeading focus">Heroku</h5>
+                    <h5 className="HerokuHeading">Heroku</h5>
                   </a>
                   <a
-                    className="GitHubImage"
+                    className="GitHubImage focus"
                     href="https://pages.github.com/"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_GITHUB_PAGES} className="img-fluid" />
-                    <h5 className="GitHubHeading focus">GitHub Pages</h5>
+                    <h5 className="GitHubHeading">GitHub Pages</h5>
                   </a>
                   <a
-                    className="NetlifyImage"
+                    className="NetlifyImage focus"
                     href="https://www.netlify.com/"
                     target="_blank"
                     alt="image not loaded"
                   >
                     <img src={L_Netlify} className="img-fluid" />
-                    <h5 className="NetlifyHeading focus">Netlify</h5>
+                    <h5 className="NetlifyHeading ">Netlify</h5>
                   </a>
                 </div>
               </Card.Body>
