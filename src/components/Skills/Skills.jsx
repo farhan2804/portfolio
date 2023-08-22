@@ -37,7 +37,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_HTML5} className="img-fluid" />
-                    <h5 className="HTMLHeading">HTML5</h5>
+                    <h5 className="HTMLHeading focus">HTML5</h5>
                   </a>
                   <a
                     className="CSSImage"
@@ -46,7 +46,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_CSS3} className="img-fluid" />
-                    <h5 className="CSSHeading">CSS3</h5>
+                    <h5 className="CSSHeading focus">CSS3</h5>
                   </a>
                   <a
                     className="BootStrapImage"
@@ -55,7 +55,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_BOOTSTRAP} className="img-fluid" />
-                    <h5 className="BootstrapHeading">Bootstrap5</h5>
+                    <h5 className="BootstrapHeading focus">Bootstrap5</h5>
                   </a>
                   <a
                     className="JavaScriptImage1"
@@ -64,7 +64,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_JAVASCRIPT} className="img-fluid" />
-                    <h5 className="JavaScriptHeading">JavaScript</h5>
+                    <h5 className="JavaScriptHeading focus">JavaScript</h5>
                   </a>
                   <a
                     className="ReactImage"
@@ -73,7 +73,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_REACT} className="img-fluid" />
-                    <h5 className="ReactHeading">React&nbsp;JS</h5>
+                    <h5 className="ReactHeading focus">React&nbsp;JS</h5>
                   </a>
                   <a
                     className="ReactBootStrapImage"
@@ -83,7 +83,7 @@ const PortfolioSkills = () => {
                   >
                     <img src={L_REACT_BOOTSTRAP} className="img-fluid" />
                     <div id="ReactBootstrapHeadingContainer">
-                      <h5 className="ReactBootStrapHeading">React Bootstrap</h5>
+                      <h5 className="ReactBootStrapHeading focus">React Bootstrap</h5>
                     </div>
                   </a>
                 </div>
@@ -105,7 +105,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_JAVASCRIPT} className="img-fluid" />
-                    <h5 className="JavaScriptHeading">JavaScript</h5>
+                    <h5 className="JavaScriptHeading focus">JavaScript</h5>
                   </a>
                   <a
                     className="JavaImage"
@@ -114,7 +114,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_JAVA} className="img-fluid" />
-                    <h5 className="JavaHeading">Java</h5>
+                    <h5 className="JavaHeading focus">Java</h5>
                   </a>
                 </div>
               </Card.Body>
@@ -131,7 +131,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_GIT} className="img-fluid" />
-                    <h5 className="GITHeading">GIT</h5>
+                    <h5 className="GITHeading focus">GIT</h5>
                   </a>
                 </div>
               </Card.Body>
@@ -150,7 +150,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_Heroku} className="img-fluid" />
-                    <h5 className="HerokuHeading">Heroku</h5>
+                    <h5 className="HerokuHeading focus">Heroku</h5>
                   </a>
                   <a
                     className="GitHubImage"
@@ -159,7 +159,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_GITHUB_PAGES} className="img-fluid" />
-                    <h5 className="GitHubHeading">GitHub Pages</h5>
+                    <h5 className="GitHubHeading focus">GitHub Pages</h5>
                   </a>
                   <a
                     className="NetlifyImage"
@@ -168,7 +168,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_Netlify} className="img-fluid" />
-                    <h5 className="NetlifyHeading">Netlify</h5>
+                    <h5 className="NetlifyHeading focus">Netlify</h5>
                   </a>
                 </div>
               </Card.Body>

@@ -1,4 +1,11 @@
 // @import "../Themes/Themes.scss";
+.focus {
+  transition: transform 0.3s;
+}
+
+.focus:hover {
+  transform: scale(1.25);
+}
 
 #CardContents1 {
   display: flex;
