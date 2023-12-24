@@ -9,3 +9,5 @@ export const CALCULATOR = "https://farhan2804.github.io/Calculator/";
 export const HOME_AUTOMATION = "https://farhan2804.github.io/IOT_Project-detail-html/";
 export const QR_CODE_GENERATOR = "https://farhan2804.github.io/qr-code-generator/";
 export const INFINITY_SCROLL = "https://farhan2804.github.io/Infinity-Scroll/";
+export const Todo_List="https://farhan2804.github.io/list/";
+export const Quiz_App="https://farhan2804.github.io/quizapp/";
