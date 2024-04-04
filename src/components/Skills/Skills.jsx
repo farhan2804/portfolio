@@ -174,7 +174,7 @@ const PortfolioSkills = () => {
               </Card.Body>
             </div>
           </div>
-          </div>
+        </div>
       </div>
     </Container>
   );
