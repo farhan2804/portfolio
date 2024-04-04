@@ -19,7 +19,7 @@ const PortfolioAbout = () => {
           </div>
           <div className="col-lg-6 col-md-12 col-12" id="AboutContent">
             <h1 id="AboutHeading">About Me</h1>
-            👋Hi there! I am <strong id="str">&nbsp;Farhan Mahmood.</strong>
+            👋Hi there! I am <strong id="strName">&nbsp;Farhan Mahmood.</strong>
             <br />
             {aboutText}
             <div id="ButtonContainer">
