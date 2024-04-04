@@ -26,6 +26,16 @@
 #str {
   font-size: larger;
 }
+#about.light-mode {
+  color: #0a0d41;
+}
+#about.dark-mode {
+  color: white;
+}
+
+#AboutContent{
+  font-size:19px;
+}
 
 @media (max-width: 767px) {
   #AboutHeading {
@@ -51,4 +61,14 @@
   #AboutHeading {
     margin-top: 25px;
   }
+  #AboutContent{
+    font-size:18px;
+  }
+ 
+}
+@media screen and (max-width: 1200px) and (min-width: 991px) {
+  #AboutContent{
+    font-size:15px;
+  }
+
 }

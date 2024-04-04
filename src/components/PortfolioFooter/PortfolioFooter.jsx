@@ -1,4 +1,5 @@
 import React from "react";
+import { Tooltip } from "react-tooltip";
 import "./PortfolioFooter.scss";
 import Button from "react-bootstrap/Button";
 import { useTheme } from "../Themes/ThemeProvider";
@@ -27,8 +28,15 @@ const PortfolioFooter = () => {
           {new Date().getDate()}-{new Date().getUTCFullYear()}
         </div>
         <div id="BackToTop">
-          <Button variant="danger" onClick={scrollToTop} title="Back to Top">
+          <Button
+            variant="danger"
+            onClick={scrollToTop}
+            data-tooltip-id="footer_tooltip"
+            data-tooltip-content="Back to Top"
+            data-tooltip-place="bottom"
+          >
             <i className="fa-solid fa-arrow-up"></i>
+            <Tooltip id="footer_tooltip" />
           </Button>
         </div>
       </div>

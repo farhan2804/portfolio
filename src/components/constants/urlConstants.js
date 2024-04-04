@@ -4,10 +4,26 @@ export const INSTAGRAM = "https://www.instagram.com/_farhan_2804/";
 export const YOUTUBE = "https://www.youtube.com/@animaginations7060";
 export const EMAIL = "mailto:farhan.akp17el@gmail.com";
 export const TEXTTRACT = "https://farhan2804.github.io/textract/";
+export const TEXTTRACT_Source_Code = "https://github.com/farhan2804/textract";
 export const LIGHT_DARK_MODE = "https://farhan2804.github.io/Light-Dark-Mode/";
+export const LIGHT_DARK_MODE_Source_Code =
+  "https://github.com/farhan2804/Light-Dark-Mode";
 export const CALCULATOR = "https://farhan2804.github.io/Calculator/";
-export const HOME_AUTOMATION = "https://farhan2804.github.io/IOT_Project-detail-html/";
-export const QR_CODE_GENERATOR = "https://farhan2804.github.io/qr-code-generator/";
+export const Calculator_Source_Code =
+  "https://github.com/farhan2804/Calculator";
+export const HOME_AUTOMATION =
+  "https://farhan2804.github.io/IOT_Project-detail-html/";
+export const QR_CODE_GENERATOR =
+  "https://farhan2804.github.io/qr-code-generator/";
+export const QR_CODE_GENERATOR_Source_Code =
+  "https://github.com/farhan2804/qr-code-generator";
 export const INFINITY_SCROLL = "https://farhan2804.github.io/Infinity-Scroll/";
-export const Todo_List="https://farhan2804.github.io/list/";
-export const Quiz_App="https://farhan2804.github.io/quizapp/";
+export const INFINITY_SCROLL_Source_Code =
+  "https://github.com/farhan2804/Infinity-Scroll";
+export const Todo_List = "https://farhan2804.github.io/list/";
+export const Todo_List_Source_Code = "https://github.com/farhan2804/list";
+export const Quiz_App = "https://farhan2804.github.io/quizapp/";
+export const Quiz_App_Source_Code = "https://github.com/farhan2804/quizapp";
+export const Weather_App = "https://weatherapp-e7zp.onrender.com/";
+export const Weather_App_Source_Code =
+  "https://github.com/farhan2804/weatherAppExpressJS";

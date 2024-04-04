@@ -83,7 +83,7 @@
 }
 
 input:checked + .slider {
-  background: var(--primary-color);
+  background: #dc3545;
 }
 
 input:checked + .slider::before {
@@ -100,6 +100,13 @@ input:checked + .slider::before {
 
 .fas {
   font-size: 20px;
+}
+
+#my-tooltip {
+  width: 170px;
+  height: 40px;
+  font-size: 15px;
+  background-color: #333;
 }
 
 @media (max-width: 767px) {
@@ -126,5 +133,3 @@ input:checked + .slider::before {
     margin-left: 15px;
   }
 }
-
-

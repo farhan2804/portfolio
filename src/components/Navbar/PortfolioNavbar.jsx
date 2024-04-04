@@ -1,4 +1,5 @@
 import React from "react";
+import { Tooltip } from "react-tooltip";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Pdf from "./Farhan_Mahmood.pdf";
@@ -63,14 +64,23 @@ const PortfolioNavbar = () => {
         <div className="theme-switch-wrapper">
           <span id="toggle-icon">
             {isDarkMode ? (
-              <i className="fas fa-moon"></i>
+              <i className="fas fa-moon" style={{ color: "white" }}></i>
             ) : (
               <i className="fas fa-sun" style={{ color: "white" }}></i>
             )}
           </span>
           <label className="theme-switch">
             <input type="checkbox" onChange={handleToggleTheme} />
-            <div className="slider round"></div>
+            <div
+              className="slider round"
+              data-tooltip-id="my-tooltip"
+              data-tooltip-content={
+                isDarkMode ? "Switch to Light Mode" : "Switch to Dark Mode"
+              }
+              data-tooltip-place="top"
+            >
+              <Tooltip id="my-tooltip" />
+            </div>
           </label>
         </div>
       </Navbar>

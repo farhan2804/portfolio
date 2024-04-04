@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import { projectData } from "./projectData";
-import detailsButtonIcon from "../../assets/Images/Projects/globe.png";
+import detailsButtonIcon from "../../assets/Images/Projects/live_Dark.png";
+import deatilsButtonIconDark from "../../assets/Images/Projects/live_Light.png";
+import githubButtonIcon from "../../assets/Images/Projects/github_Light.png";
+import githubButtonIconDark from "../../assets/Images/Projects/github_Dark.png";
 import { useTheme } from "../Themes/ThemeProvider";
 
 import "./PortfolioProjects.scss";
@@ -51,15 +54,39 @@ const PortfolioProjects = () => {
                     hoveredProject === project.id ? "hovered" : ""
                   } ${isDarkMode ? "dark-mode" : "light-mode"}`}
                 >
-                  <h3>{project.title}</h3>
-                  <p>{project.description}</p>
+                  <h3 id="titleOfImage">{project.title}</h3>
+                  <p id="descriptionOfImage">{project.description}</p>
                   <a
                     className="details-button"
-                    href={project.url}
+                    href={project.Deploy_url}
                     target="_blank"
                     onClick={handleDetailsButtonClick}
                   >
-                    <img src={detailsButtonIcon} alt="details-button" />
+                    {isDarkMode ? (
+                      <img
+                        id="deployImage"
+                        src={deatilsButtonIconDark}
+                        alt="details-button"
+                      />
+                    ) : (
+                      <img
+                        id="deployImage"
+                        src={detailsButtonIcon}
+                        alt="details-button"
+                      />
+                    )}
+                  </a>
+                  <a
+                    className="details-button"
+                    href={project.SourceCode_url}
+                    target="_blank"
+                    onClick={handleDetailsButtonClick}
+                  >
+                    {isDarkMode ? (
+                      <img id="gitHubImage" src={githubButtonIconDark} alt="details-button" />
+                    ) : (
+                      <img id="gitHubImage" src={githubButtonIcon} alt="details-button" />
+                    )}
                   </a>
                 </div>
               </div>
