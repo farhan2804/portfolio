@@ -3,6 +3,7 @@ import PortfolioAbout from "./components/About/About.jsx";
 import PortfolioSkills from "./components/Skills/Skills.jsx";
 import PortfolioProjects from "./components/PortfolioProjects/PortfolioProjects.jsx";
 import PortfolioNavbar from "./components/Navbar/PortfolioNavbar.jsx";
+import TitleMessage from "./components/Title/Title.jsx";
 // import PortfolioContact from "./components/Contact/Contact.jsx";
 import PortfolioFooter from "./components/PortfolioFooter/PortfolioFooter.jsx";
 import "./App.css";
@@ -12,6 +13,7 @@ const App = () => {
     <>
       <PortfolioNavbar />
       <PortfolioCarousel />
+      <TitleMessage/>
       <hr className="w-75 mx-auto pt-1" />
       <PortfolioAbout />
       <hr className="w-75 mx-auto pt-1" />

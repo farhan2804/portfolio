@@ -12,6 +12,11 @@ import L_GIT from "../../assets/Images/Skills/git-icon.svg";
 import L_GITHUB_PAGES from "../../assets/Images/Skills/github.svg";
 import L_Heroku from "../../assets/Images/Skills/heroku.svg";
 import L_Netlify from "../../assets/Images/Skills/netlify.png";
+import L_React_Router from "../../assets/Images/Skills/react-router.svg";
+import L_Redux from "../../assets/Images/Skills/redux.svg";
+import L_NodeJS from "../../assets/Images/Skills/nodeJS.png";
+import L_ExpressJS from "../../assets/Images/Skills/expressJS.png";
+import L_SQL from "../../assets/Images/Skills/sqlDataBase.png";
 import { useTheme } from "../Themes/ThemeProvider";
 import "./Skills.scss";
 
@@ -73,7 +78,7 @@ const PortfolioSkills = () => {
                     alt="image not loaded"
                   >
                     <img src={L_REACT} className="img-fluid" />
-                    <h5 className="ReactHeading">React&nbsp;JS</h5>
+                    <h5 className="ReactHeading">React.js</h5>
                   </a>
                   <a
                     className="ReactBootStrapImage focus"
@@ -84,6 +89,28 @@ const PortfolioSkills = () => {
                     <img src={L_REACT_BOOTSTRAP} className="img-fluid" />
                     <div id="ReactBootstrapHeadingContainer">
                       <h5 className="ReactBootStrapHeading">React Bootstrap</h5>
+                    </div>
+                  </a>
+                  <a
+                    className="ReactRedux focus"
+                    href="https://react-redux.js.org/"
+                    target="_blank"
+                    alt="image not loaded"
+                  >
+                    <img src={L_Redux} className="img-fluid" />
+                    <div id="ReduxHeadingContainer">
+                      <h5 className="ReduxHeading">Redux</h5>
+                    </div>
+                  </a>
+                  <a
+                    className="ReactRouter focus"
+                    href="https://reactrouter.com/en/main"
+                    target="_blank"
+                    alt="image not loaded"
+                  >
+                    <img src={L_React_Router} className="img-fluid" />
+                    <div id="ReactRouterHeadingContainer">
+                      <h5 className="ReactRouterHeading">React Router</h5>
                     </div>
                   </a>
                 </div>
@@ -136,6 +163,23 @@ const PortfolioSkills = () => {
                 </div>
               </Card.Body>
             </div>
+            <div id="SkillsContainer3">
+              <Card.Body>
+                <h2 id="TitleHeading3">DataBase Language</h2>
+                <hr id="TitleLine3"></hr>
+                <div id="CardContents2">
+                  <a
+                    className="SQlImage focus"
+                    href="https://www.w3schools.com/sql/"
+                    target="_blank"
+                    alt="image not loaded"
+                  >
+                    <img src={L_SQL} className="img-fluid" />
+                    <h5 className="SQLHeading">SQL</h5>
+                  </a>
+                </div>
+              </Card.Body>
+            </div>
           </div>
           <div className="col-lg-4 col-md-4 col-sm-12 col-12" id="title3">
             <div id="SkillsContainer4">
@@ -169,6 +213,32 @@ const PortfolioSkills = () => {
                   >
                     <img src={L_Netlify} className="img-fluid" />
                     <h5 className="NetlifyHeading ">Netlify</h5>
+                  </a>
+                </div>
+              </Card.Body>
+            </div>
+            <div id="SkillsContainer4">
+              <Card.Body>
+                <h2 id="TitleHeading4">Backend</h2>
+                <hr id="TitleLine4"></hr>
+                <div id="CardContents4">
+                  <a
+                    className="NodeJS focus"
+                    href="https://nodejs.org/en"
+                    target="_blank"
+                    alt="image not loaded"
+                  >
+                    <img src={L_NodeJS} className="img-fluid" />
+                    <h5 className="NodeJSHeading">Node.js</h5>
+                  </a>
+                  <a
+                    className="ExpressJS focus"
+                    href="https://expressjs.com/"
+                    target="_blank"
+                    alt="image not loaded"
+                  >
+                    <img src={L_ExpressJS} className="img-fluid" />
+                    <h5 className="ExpressJSHeading">Express.js</h5>
                   </a>
                 </div>
               </Card.Body>

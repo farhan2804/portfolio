@@ -49,7 +49,7 @@ const PortfolioNavbar = () => {
       >
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <h2 id="NavbarName">Farhan Mahmood</h2>
+          {/* <h2 id="NavbarName">Farhan Mahmood</h2> */}
           <Nav id="NavbarElements">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
