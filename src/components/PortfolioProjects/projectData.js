@@ -1,7 +1,7 @@
 import Image1 from "../../assets/Images/Projects/text.svg";
 import Image2 from "../../assets/Images/Projects/quiz.svg";
 import Image3 from "../../assets/Images/Projects/todo.svg";
-// import Image4 from "../../assets/Images/Projects/automation.svg";
+import Image4 from "../../assets/Images/Projects/slide.svg";
 import Image5 from "../../assets/Images/Projects/qr.png";
 import Image6 from "../../assets/Images/Projects/infinity.png";
 import Image7 from "../../assets/Images/Projects/darkMode.svg";
@@ -15,7 +15,8 @@ import {
   LIGHT_DARK_MODE_Source_Code,
   CALCULATOR,
   Calculator_Source_Code,
-  // HOME_AUTOMATION,
+  SLIDE_SHOW,
+  SLIDE_SHOW_Source_Code,
   QR_CODE_GENERATOR,
   QR_CODE_GENERATOR_Source_Code,
   INFINITY_SCROLL,
@@ -71,11 +72,11 @@ export const projectData = [
   },
   {
     id: "project_6",
-    image: Image6,
-    title: "Infinity scroll",
-    description: "HTML, CSS and JavaScript",
-    Deploy_url: INFINITY_SCROLL,
-    SourceCode_url: INFINITY_SCROLL_Source_Code,
+    image: Image4,
+    title: "Slide Show App",
+    description: "React.js, JavaScript",
+    Deploy_url: SLIDE_SHOW,
+    SourceCode_url: SLIDE_SHOW_Source_Code,
   },
 
   {
@@ -94,11 +95,13 @@ export const projectData = [
     Deploy_url: CALCULATOR,
     SourceCode_url: Calculator_Source_Code,
   },
-  // {
-  //   id: "project_9",
-  //   image: Image4,
-  //   title: "Smart Home Automation-IOT",
-  //   description: "Designed Using Node Mcu and Bylnk App",
-  //   url: HOME_AUTOMATION,
-  // },
+
+  {
+    id: "project_9",
+    image: Image6,
+    title: "Infinity scroll",
+    description: "HTML, CSS and JavaScript",
+    Deploy_url: INFINITY_SCROLL,
+    SourceCode_url: INFINITY_SCROLL_Source_Code,
+  },
 ];
