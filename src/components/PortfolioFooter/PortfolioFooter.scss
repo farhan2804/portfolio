@@ -9,15 +9,14 @@
   font-size: 23px;
 }
 
-#FooterHeading{
-  position:absolute;
+#FooterHeading {
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top:10px;
-
+  top: 10px;
 }
-#footer_tooltip{
-  background-color:#333;
+#footer_tooltip {
+  background-color: #333;
 }
 
 #FooterDetails {
@@ -56,7 +55,7 @@
 .NavDetails .about-link:hover,
 .NavDetails .skill-link:hover,
 .NavDetails .project-link:hover {
-  color: rgba(76, 74, 74, 0.37);
+  color: rgba(81, 79, 79, 0.656);
   cursor: pointer;
 }
 
@@ -70,32 +69,35 @@
   cursor: pointer;
   font-size: 40px;
   text-decoration: none;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
-#emailIcon{
-    font-size:40px;
+#emailIcon {
+  font-size: 40px;
 }
 
+.light-mode .SocialIcons .fa-github:hover {
+  color: #fff;
+}
 
-.fa-github:hover {
-  color: rgba(235, 24, 24, 0.858);
+.dark-mode .SocialIcons .fa-github:hover {
+  color: black;
 }
 
 .fa-instagram:hover {
-  color: rgba(235, 24, 24, 0.858);
+  color: #dc3545;
 }
 
 .fa-youtube:hover {
-  color: rgba(235, 24, 24, 0.858);
+  color: #dc3545;
 }
 
 .fa-linkedin:hover {
-  color: rgb(239, 16, 16);
+  color: #0a66c2;
 }
 
 .fa-envelope:hover {
-  color: rgba(235, 24, 24, 0.858);
+  color: #0a66c2;
 }
 
 .SocialIcons a {
@@ -149,7 +151,7 @@
   .SocialIcons {
     font-size: 30px;
   }
-  #emailIcon{
-    font-size:30px;
-}
+  #emailIcon {
+    font-size: 30px;
+  }
 }

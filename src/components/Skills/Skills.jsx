@@ -165,7 +165,7 @@ const PortfolioSkills = () => {
             </div>
             <div id="SkillsContainer3">
               <Card.Body>
-                <h2 id="TitleHeading3">DataBase Language</h2>
+                <h2 id="TitleHeading3">Database</h2>
                 <hr id="TitleLine3"></hr>
                 <div id="CardContents2">
                   <a
