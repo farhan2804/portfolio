@@ -17,6 +17,7 @@ import L_Redux from "../../assets/Images/Skills/redux.svg";
 import L_NodeJS from "../../assets/Images/Skills/nodeJS.png";
 import L_ExpressJS from "../../assets/Images/Skills/expressJS.png";
 import L_SQL from "../../assets/Images/Skills/sqlDataBase.png";
+import L_MongoDb from "../../assets/Images/Skills/mongodb.svg";
 import { useTheme } from "../Themes/ThemeProvider";
 import "./Skills.scss";
 
@@ -176,6 +177,15 @@ const PortfolioSkills = () => {
                   >
                     <img src={L_SQL} className="img-fluid" />
                     <h5 className="SQLHeading">SQL</h5>
+                  </a>
+                  <a
+                    className="mongodb focus"
+                    href="https://www.mongodb.com/"
+                    target="_blank"
+                    alt="image not loaded"
+                  >
+                    <img src={L_MongoDb} className="img-fluid" />
+                    <h5 className="mongodbHeading">MongoDB</h5>
                   </a>
                 </div>
               </Card.Body>
